@@ -1,0 +1,145 @@
+
+
+
+#container {
+    width:1050px;
+    margin: 0 auto;
+}
+
+
+#header {
+    height:100px;
+    padding: 10px 0;
+}
+
+
+#brand {
+    float: left;
+}
+
+
+h1 a{
+    font-size:50px;
+    font-weight: 100;
+    color:blue;
+    text-decoration: none;
+}
+
+#searchBox {
+    float:right;
+    background: linear-gradient(red,orange);
+    width:400px;
+    height:50px;
+    padding: 20px 20px 0 20px;
+    margin: 20px;
+}
+
+.text{
+    float:left;
+    width:200px;
+    padding:5px;
+    font-size: 15px;
+}
+.submit {
+    float:right;
+    padding:5px;
+    font-weight: bold;
+    color:white;
+    background: blue;
+    font-size:15px;
+}
+
+#menu{
+    height:70px;
+    background: linear-gradient(red,orange);
+    padding: 8px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float:left;
+    padding: 0 30px;
+    height:30px;
+    border-right: 1px solid black;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover,#menu ul li a.active{
+    font-size:20px;
+    font-weight:bold;
+}
+
+#introduction{
+    background: linear-gradient(#E5F2BB,#B7E952);
+    padding:30px;
+    margin: 15px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color:#316901;
+    font-weight: normal;
+    
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #789450;
+    text-align: justify;
+}
+
+.sidebar{
+    height:500px;
+    width:450px;
+    border:5px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    font-size:30px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 2px;
+    list-style-image: url(images/image2.png);
+}
+#rightsidebar ul li{
+    padding-bottom: 20px;
+    list-style-image: url(images/image2.png);
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size:25px;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    font-size:30px;
+    color:red;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float:right;
+}
+
